@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://media.cntraveler.com/photos/5a6a2f81c78fe60af2d6ae2f/3:2/w_3999,h_2666,c_limit/Henrietta-Red_Andrew-Thomas-Lee-_2018_henriettared_FINAL_0001.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.order{
+    width: 286px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+}
+.order h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid lightslategray;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color: maroon;
+}
+
+.name,.email,.type,.address{
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid white;
+}
+
+.name input{
+   border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    width: 80px;
+    float: left;
+    margin:0 10px;
+}
+input[type=text]{
+    width: 100%;
+}
+.name input::placeholder{
+    color: black;
+}
+.email input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    width: 80px;
+    float: left;
+    margin:0 10px;
+}
+.email input::placeholder{
+    color: black;
+}
+input[type=email]{
+    width: 100%;
+}
+.type input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    width: 80px;
+    float: left;
+    margin:0 10px;
+}
+input[type=number]{
+    width: 100%;
+}
+.type input::placeholder{
+    color: black;
+}
+.address input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    width: 80px;
+    float: left;
+    margin:0 10px;
+}
+input[type=text]{
+    width: 100%;
+}
+.address input::placeholder{
+    color: black;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 1px solid lightslategray;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    margin: 12px 0;
+}
+
